@@ -1,0 +1,12 @@
+
+{
+  "required": true,
+  "package": "dev.orevision.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

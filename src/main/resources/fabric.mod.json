@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "orevision",
+  "version": "${version}",
+  "name": "OreVision",
+  "description": "Toggleable X-ray vision for ores and liquids.",
+  "authors": ["OreVision"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.orevision.OreVisionClient"
+    ]
+  },
+  "mixins": [
+    "orevision.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
